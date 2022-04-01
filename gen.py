@@ -48,5 +48,5 @@ template = f"""
 </html>
 """
 
-with open("out.html", "w") as file:
+with open("index.html", "w") as file:
     file.write(template)
