@@ -13,7 +13,7 @@ for row in range(len(p)):
     generated += f"<div class='row' style='top: {row * scale}px;'>"
     for square in range(len(p[row])):
         color = f"rgba({p[row][square][0]*255},{p[row][square][1]*255},{p[row][square][2]*255},{p[row][square][3]})"
-        generated += f"<a style='background-color: {color};left: {square * scale}px;' class='square' href='https://www.reddit.com/r/place/?cx={topleft[0] + square}&cy={topleft[1] + row}&px=20'></a>"
+        generated += f"<a style='background-color: {color};left: {square * scale}px;' class='square' href='https://new.reddit.com/r/place/?cx={topleft[0] + square}&cy={topleft[1] + row}&px=20'></a>"
     generated += "</div>"
 
 template = f"""
