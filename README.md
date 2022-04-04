@@ -1,4 +1,1 @@
-# tux-on-place
-get tux on r/place
-
-https://r-placetux.github.io
+We have relocated to https://github.com/r-PlaceTux/place_tux
